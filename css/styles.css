@@ -754,6 +754,7 @@ ol {
   color: #8e8f99;
   /* display: flex; */
   align-items: center;
+  /* display: inline; */
 }
 
 .check-text span {
