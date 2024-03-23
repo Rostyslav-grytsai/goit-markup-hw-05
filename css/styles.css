@@ -472,7 +472,7 @@ ol {
 }
 
 .media-list-link {
-  margin-right: 80px;
+  margin-left: 80px;
 }
 
 .media-list {
@@ -575,6 +575,11 @@ ol {
   min-width: 165px;
 }
 
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+  background-color: #404bbf;
+}
+
 .btn-icone-frame {
   fill: #fff;
   margin-left: 16px;
@@ -610,7 +615,6 @@ ol {
 
 .modal:hover,
 .modal:focus {
-  fill: #ffffff;
 }
 
 .is-open {
@@ -685,7 +689,6 @@ ol {
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
-  margin-bottom: 8px;
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -735,7 +738,6 @@ ol {
   padding: 8px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
-  margin-bottom: 16px;
 }
 
 .modal-text-user:focus {
@@ -800,4 +802,9 @@ ol {
   cursor: pointer;
   min-width: 169px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-submit:hover,
+.modal-submit:focus {
+  background-color: #404bbf;
 }
