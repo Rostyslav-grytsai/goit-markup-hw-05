@@ -472,7 +472,7 @@ ol {
 }
 
 .media-list-link {
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 
 .media-list {
@@ -565,7 +565,6 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
   background: #4d5ae5;
@@ -573,6 +572,7 @@ ol {
   border: none;
   cursor: pointer;
   min-width: 165px;
+  /* margin-left: 80px; */
 }
 
 .footer-form-btn:hover,
@@ -613,7 +613,6 @@ ol {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal:hover,
 .modal:focus {
   fill: #ffffff;
 }
