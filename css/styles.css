@@ -528,9 +528,14 @@ ol {
 .social-subtitle {
 }
 
+.subscribe {
+  margin-left: 80px;
+}
+
 .footer-form {
   display: flex;
   gap: 24px;
+  margin-left: 80px;
 }
 
 .footer-label {
